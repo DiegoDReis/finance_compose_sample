@@ -36,7 +36,6 @@ data class FinanceAppTypography(
         fontWeight = FontWeight.W600,
         fontSize = MediumFontSize,
         letterSpacing = MediumFontSize.times(other = -0.02F)
-
     ),
     val subtitleNormal: TextStyle = TextStyle(
         fontFamily = BaseFontFamily,

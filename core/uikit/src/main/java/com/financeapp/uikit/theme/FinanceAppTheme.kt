@@ -14,10 +14,10 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 import com.financeapp.uikit.theme.values.Green40
 
-val LocalColorScheme = staticCompositionLocalOf { FinanceAppColors() }
-val LocalSpaces = staticCompositionLocalOf { FinanceAppSpaces() }
-val LocalTypography = staticCompositionLocalOf { FinanceAppTypography()}
-val LocalShapes = staticCompositionLocalOf { FinanceAppShapes()}
+private val LocalColorScheme = staticCompositionLocalOf { FinanceAppColors() }
+private val LocalSpaces = staticCompositionLocalOf { FinanceAppSpaces() }
+private val LocalTypography = staticCompositionLocalOf { FinanceAppTypography()}
+private val LocalShapes = staticCompositionLocalOf { FinanceAppShapes()}
 
 @Composable
 fun FinanceAppTheme(
