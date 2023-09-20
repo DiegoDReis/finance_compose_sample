@@ -15,14 +15,6 @@ android {
 
 dependencies {
 
-    implementation (Internal.coreKtx)
-    implementation (Internal.runtimeKtx)
-    implementation (Internal.activityCompose)
-    implementation (platform(Internal.composeBom))
-    implementation (Internal.composeUi)
-    implementation (Internal.uiGraphics)
-    implementation (Internal.uiToolingPreview)
-    implementation (Internal.material3)
     testImplementation (Test.junit)
     androidTestImplementation (Test.junitAndroid)
     androidTestImplementation (Test.espressoCore)

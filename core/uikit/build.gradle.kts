@@ -19,4 +19,7 @@ dependencies {
     api (Internal.uiGraphics)
     api (Internal.uiToolingPreview)
     api (Internal.material3)
+
+    debugImplementation (Debug.uiTooling)
+    debugImplementation (Debug.uiTestManifest)
 }
