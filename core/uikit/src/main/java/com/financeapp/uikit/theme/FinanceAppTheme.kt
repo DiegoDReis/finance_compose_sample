@@ -18,6 +18,7 @@ private val LocalColorScheme = staticCompositionLocalOf { FinanceAppColors() }
 private val LocalSpaces = staticCompositionLocalOf { FinanceAppSpaces() }
 private val LocalTypography = staticCompositionLocalOf { FinanceAppTypography()}
 private val LocalShapes = staticCompositionLocalOf { FinanceAppShapes()}
+private val LocalSizes = staticCompositionLocalOf { FinanceAppSizes()}
 
 @Composable
 fun FinanceAppTheme(
@@ -29,7 +30,8 @@ fun FinanceAppTheme(
         LocalColorScheme provides FinanceAppTheme.colors,
         LocalSpaces provides FinanceAppTheme.spaces,
         LocalTypography provides FinanceAppTheme.textStyles,
-        LocalShapes provides FinanceAppTheme.shapes
+        LocalShapes provides FinanceAppTheme.shapes,
+        LocalSizes provides FinanceAppTheme.sizes
     ) {
 
         val view = LocalView.current
@@ -66,4 +68,9 @@ object FinanceAppTheme {
         @Composable
         @ReadOnlyComposable
         get() = LocalShapes.current
+
+    val sizes: FinanceAppSizes
+        @Composable
+        @ReadOnlyComposable
+        get() = LocalSizes.current
 }
