@@ -7,6 +7,7 @@ import androidx.compose.ui.unit.sp
 
 // Components Size
 internal val ButtonSize: Dp = 67.dp
+internal val ProgressSize: Dp = 40.dp
 
 // Fonts Size
 internal val ExtraLargeFontSize: TextUnit = 36.sp
