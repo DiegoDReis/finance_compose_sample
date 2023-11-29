@@ -26,6 +26,6 @@ fun FinanceButton(
 private fun PreviewFinanceButton() {
     FinanceButton(
         modifier = Modifier.fillMaxWidth(),
-        text = "Get Starded"){
+        text = "Get Started"){
     }
 }
