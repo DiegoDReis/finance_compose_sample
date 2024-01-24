@@ -43,12 +43,18 @@ data class FinanceAppTypography(
         fontSize = MediumFontSize,
         letterSpacing = MediumFontSize.times(other = -0.04F)
     ),
+
     val bodyExtraLarge: TextStyle = TextStyle(
+        fontFamily = BaseFontFamily,
+        fontWeight = FontWeight.W600,
+        fontSize = NormalFontSize,
+    ),
+    val bodyLarge: TextStyle = TextStyle(
         fontFamily = BaseFontFamily,
         fontWeight = FontWeight.W500,
         fontSize = MediumFontSize,
     ),
-    val bodyLarge: TextStyle = TextStyle(
+    val bodyExtraMedium: TextStyle = TextStyle(
         fontFamily = BaseFontFamily,
         fontWeight = FontWeight.W500,
         fontSize = NormalFontSize,
