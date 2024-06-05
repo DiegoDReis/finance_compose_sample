@@ -51,5 +51,5 @@ fun FinanceHeader(modifier: Modifier = Modifier) {
 private fun PreviewFinanceHeader() {
     FinanceHeader(modifier = Modifier
         .fillMaxWidth()
-        .fillMaxHeight(0.3F))
+        .height(300.dp))
 }
