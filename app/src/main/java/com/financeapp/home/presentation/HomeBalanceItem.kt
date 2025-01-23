@@ -1,4 +1,4 @@
-package com.financeapp.home
+package com.financeapp.home.presentation
 
 data class HomeBalanceItem(
     val title: String,

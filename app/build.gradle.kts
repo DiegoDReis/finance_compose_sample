@@ -14,7 +14,7 @@ android {
 }
 
 dependencies {
-
+    implementation(External.koinCompose)
     testImplementation (Test.junit)
     androidTestImplementation (Test.junitAndroid)
     androidTestImplementation (Test.espressoCore)
