@@ -21,7 +21,7 @@ class HomeModule {
                     HomeBalanceItem(
                         title = "Expanse",
                         date = "Today",
-                        value = "- $ 1,000.00",
+                        value = "- $ 91,000.00",
                         icon = R.drawable.ic_list_item,
                         isExpanse = true
                     ),

@@ -1,4 +1,7 @@
 package com.financeapp.home.presentation
 
-class HomeIntent {
+sealed class HomeIntent {
+
+    object AddItem: HomeIntent()
+    data class SetText(val text: String): HomeIntent()
 }
